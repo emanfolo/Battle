@@ -7,6 +7,7 @@
   <title>Play Battle</title>
 </head>
 <body>
-<h1><%= @player_1_name%> attacked <%= @player_2_name%></h1>
+<h1><%= @game.player_1.name%> attacked <%= @game.player_2.name%></h1>
+<h1><%= @game.player_1.name%>: Hit Points = <%=@game.player_1.hitpoints%>; <%=@game.player_2.name%>: Hit Points = <%=@game.player_2.hitpoints%></h1>
 </body>
 </html>
